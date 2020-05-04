@@ -3,7 +3,7 @@ import axios from 'axios'
 export function request(config)
 {
   const instence =axios.create({
-    baseURL:'http://152.136.185.210:8000/api/h8',
+    baseURL:'新的接口加老师微信coderwhy002',
     timeout:5000
   })
   instence.interceptors.request.use(config =>{
